@@ -1,0 +1,20 @@
+# Local DEV with AWS
+
+[sonar]
+sonar-main
+
+[control]
+ansible
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+
+[control:vars]
+ansible_connection=local
+
+[sonar:vars]
+sonar_version=9.1
+sonar_db_name=sonar
+sonar_db_user=sonar
+sonar_db_pass=sonar-password
+server_name=sonar-main
