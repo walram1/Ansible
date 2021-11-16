@@ -1,5 +1,8 @@
 [web]
 sonar-db
 
+[sonar]
+sonar-main
+
 [web:vars]
 ansible_python_interpreter=/usr/bin/python3
