@@ -23,7 +23,7 @@
     - name: copy the content of the web site
       copy:
         src: index.html
-        dest: /home/ubuntu/sites
+        dest: /home/ubuntu/sites/
     - name: restart nginx
       service:
         name: nginx
